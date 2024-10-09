@@ -1,0 +1,274 @@
+/*Base*/
+html{
+    margin: 0 auto;
+}
+
+body{
+    margin: 3.1756% 24px;
+    color: white;
+}
+
+main{
+    display:contents;
+}
+
+ul{
+    list-style-position: outside;
+    margin-left: 0.75rem;
+}
+
+li{
+    line-height: 1.3rem;
+    padding-bottom:0.3rem;
+    width: 100%;
+    font-family: "PolySans-Slim" , Arial, Helvetica, sans-serif;
+}
+
+/*Typography*/
+
+@font-face {
+    font-family: PolySans-Median;
+    src: url(../Assets/Fonts/PolySans-Median.woff) format('woff');
+}
+
+@font-face {
+    font-family: PolySans-Slim;
+    src: url(../Assets/Fonts/PolySans-Slim.woff) format('woff');
+}
+
+
+h1{
+    font-size:3rem;
+    font-family: "PolySans-Median" , Arial, Helvetica, sans-serif;
+    line-height: 3.6rem;
+    display:block;
+}
+
+h2{
+    font-size:3rem;
+    font-family: "PolySans-Slim" , Arial, Helvetica, sans-serif;
+    line-height: 3.6rem;
+    font-weight: 100;
+    display:block;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: "PolySans-Median" , Arial, Helvetica, sans-serif;
+    line-height: 1.6rem;
+}
+
+h4{
+    font-size: 1.5rem;
+    font-family: "PolySans-Slim" , Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height:1.6rem;
+}
+
+h5{
+    font-size: 1rem;
+    font-family: "PolySans-Median" , Arial, Helvetica, sans-serif;
+    line-height: 1.3rem;
+}
+
+h6{
+    font-size: 0.7rem;
+    font-family: "PolySans-Slim" , Arial, Helvetica, sans-serif;
+    line-height: 1.3rem;
+    text-transform: uppercase;
+    opacity: 0.5;
+    letter-spacing: 0.04rem;
+}
+
+p{
+    font-size: 1rem;
+    font-family: "PolySans-Slim" , Arial, Helvetica, sans-serif;
+    line-height: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+
+.small-caps{
+    font-size: 0.8rem;
+    font-family: "PolySans-Median" , Arial, Helvetica, sans-serif;
+    line-height: 1.3rem;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+}
+
+.paragraph{
+    width:38.88vw;
+}
+
+a{
+    display: block;
+}
+
+/*Columns*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    width: 100%;
+    /*max-width: 1440px; /* Optional max-width for larger screens */
+    /*Organize responsive for med and small*/
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1464px; /* Optional max-width for larger screens */
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.col {
+    margin: 0% 2.12vw 0% 0%;
+    /* Flex grow: 1 allows columns to grow equally */
+}
+
+/* Define width for each column size */
+.col-1 { flex-basis: 6.08vw; }
+.col-2 { flex-basis: 14.28vw; }
+.col-3 { flex-basis: 22.48vw; }
+.col-4 { flex-basis: 30.68vw; }
+.col-5 { flex-basis: 38.88vw; }
+.col-6 { flex-basis: 47.08vw; }
+.col-7 { flex-basis: 55.28vw; }
+.col-8 { flex-basis: 63.48vw; }
+.col-9 { flex-basis: 71.68vw; }
+.col-10 { flex-basis: 79.88vw; }
+.col-11 { flex-basis: 88.08vw; }
+.col-12 { flex-basis: 96.28vw; }
+
+/*Margins*/
+
+.margin-bottom--big{
+    margin-bottom: 6rem;
+}
+
+.margin-bottom--med{
+    margin-bottom: 3rem;
+}
+
+.margin-bottom--small{
+    margin-bottom: 0.5rem;
+}
+
+.margin-top--big{
+    margin-top: 6rem;
+}
+
+.margin-top--med{
+    margin-top: 3rem;
+}
+
+.margin-top--small{
+    margin-top: 1rem;
+}
+
+/*Transitions*/
+
+.box{
+    transition: flex-basis 0.5s ease; /* Smooth transition for width */
+}
+
+/*HR*/
+
+hr{
+    height: 1.5px;
+    background-color: white;
+    opacity: 0.5;
+    margin-bottom: 0.5rem;
+    padding: 0 0px;
+    border: 0 none transparent;
+}
+
+/*Responsive Tablet*/
+
+@media only screen and (max-width: 800px){
+    
+    /*Typography*/
+    h1{
+        font-size: 2.375rem;
+        font-family: "PolySans-Median" , Arial, Helvetica, sans-serif;
+        line-height: 2.6rem;
+        display:block;
+    }
+    
+    h2{
+        font-size:2.375rem;
+        font-family: "PolySans-Slim" , Arial, Helvetica, sans-serif;
+        line-height: 2.6rem;
+        display:block;
+    }
+    
+    h3{
+        font-size: 1.2rem;
+        font-family: "PolySans-Median" , Arial, Helvetica, sans-serif;
+        line-height: 1.3rem;
+    }
+    
+    h4{
+        font-size: 1.2rem;
+        font-family: "PolySans-Slim" , Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        line-height:1.3rem;
+    }
+    
+    h5{
+        font-size: 1rem;
+        font-family: "PolySans-Median" , Arial, Helvetica, sans-serif;
+        line-height: 1.3rem;
+    }
+
+    
+    p{
+        font-size: 1rem;
+        font-family: "PolySans-Slim" , Arial, Helvetica, sans-serif;
+        line-height: 1.3rem;
+    }
+    
+    a{
+        display: block;
+    }
+
+    .row--small {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        
+    }
+    
+  }
+
+  @media only screen and (min-width:1512px){
+
+    .paragraph{
+        width: 809.30px;
+    }
+
+    .col {
+        margin: 0px 31.04px 0px 0px;
+        /* Flex grow: 1 allows columns to grow equally */
+    }
+    .col-1 { flex-basis: 89.0112px;}
+    .col-2 { flex-basis: 209.06px; }
+    .col-3 { flex-basis: 329.11px; }
+    .col-4 { flex-basis: 449.16px; }
+    .col-5 { flex-basis: 569.20px; }
+    .col-6 { flex-basis: 689.25px; }
+    .col-7 { flex-basis: 809.30px; }
+    .col-8 { flex-basis: 929.35px; }
+    .col-9 { flex-basis: 1049.40px; }
+    .col-10 { flex-basis: 1169.44px; }
+    .col-11 { flex-basis: 1289.49px; }
+    .col-12 { flex-basis: 1409.54px; }
+  }

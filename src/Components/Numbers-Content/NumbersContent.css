@@ -1,0 +1,25 @@
+.numbers-section--hr{
+    margin-bottom:0%;
+}
+
+.numbers-hr{
+    background-color:white;
+    opacity: 1;
+    height: 5px;
+    border: 0 none transparent;
+}
+
+.numbers-title{
+    margin-top: 0.5rem;
+}
+
+.number--outer-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.numbers{
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}

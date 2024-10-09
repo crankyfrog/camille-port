@@ -1,0 +1,26 @@
+.App {
+  text-align: left;
+  color:white;
+  width:100%;
+}
+
+
+header{
+  margin-top: 48px !important;
+}
+
+.HomeLink{
+  color:white;
+  text-decoration: none;
+  text-align:left;
+  width:100%;
+  position: relative;
+}
+
+.flex-end{
+  justify-content: flex-end;
+}
+
+.featured-title{
+  display: flex;
+}

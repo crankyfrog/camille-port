@@ -1,0 +1,35 @@
+.cover--container{
+    display:flex;
+    flex-wrap: wrap-reverse;
+}
+
+.cover-title{
+    letter-spacing: 0.02rem;
+}
+
+.cover-image--container{
+    position:relative;
+    height:500px;
+    margin-right: 0%;
+}
+
+.cover-image--container--mobile{
+    position:relative;
+    height:250px;
+}
+
+.cover-image{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.text-container{
+    margin-right: 10.32%;
+}
+
+@media only screen and (min-width: 1512px){
+    .text-container{
+        margin-right: 151.08px;
+    }
+}

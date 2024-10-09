@@ -1,0 +1,9 @@
+.collage2-image{
+    width:100%;
+}
+
+.collage2--sib{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}

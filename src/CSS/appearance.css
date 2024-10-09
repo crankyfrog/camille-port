@@ -1,0 +1,103 @@
+:root{
+    --yellow: rgb(255, 230, 0);
+}
+
+.a--h1{
+    font-size:3rem;
+    font-family: "PolySans-Median" , Arial, Helvetica, sans-serif;
+    margin-top: 1.2rem;
+    margin-bottom: 2.4rem;
+}
+
+.a--h2{
+    font-size:3rem;
+    font-family: "PolySans-Slim" , Arial, Helvetica, sans-serif;
+    margin-top: 1.2rem;
+    margin-bottom: 2.4rem;
+}
+
+.a--h3{
+    font-size: 1.5rem;
+    font-family: "PolySans-Median" , Arial, Helvetica, sans-serif;
+    line-height: 1.6rem;
+}
+
+.a--h4{
+    font-size: 1.5rem;
+    font-family: "PolySans-Slim" , Arial, Helvetica, sans-serif;
+    line-height:1.6rem;
+}
+
+.a--h5{
+    font-size: 1rem;
+    font-family: "PolySans-Median" , Arial, Helvetica, sans-serif;
+    line-height: 1.3rem;
+}
+
+.a--p{
+    font-size: 1rem;
+    font-family: "PolySans-Slim" , Arial, Helvetica, sans-serif;
+    line-height: 1.3rem;
+}
+
+.a--text-highlight{
+    color: var(--yellow);
+}
+
+.a--rotate-left-text{
+    writing-mode: vertical-rl;
+   transform: scale(-1);
+   transition: writing-mode 0.5s ease;
+}
+
+.a--rotate-left{
+
+    transform: rotate(-90deg);
+    transform-origin:32px 10px;
+    transition: all 0.5s ease; /* Smooth transition for width */
+}
+
+.a--rotate-vertical{
+    transform: rotate(0deg);
+    transform-origin:50px 50px;
+    transition: all 0.5s ease; /* Smooth transition for width */
+ }
+
+/*Margins*/
+.a--no-margin{
+    margin:0 !important;
+}
+
+.a--no-margin-right{
+    margin-right:0 !important;
+}
+
+.a--margin-right{
+    margin-right: 8.20%;
+}
+
+/*Alignment*/
+
+.a--align-bottom{
+   vertical-align:right;
+}
+
+.a--align-right{
+    text-align:right;
+}
+
+/*Display*/
+
+.a--display-none{
+    display: none;
+}
+
+/*Responsive Mobile*/
+
+@media only screen and (max-width:600px){
+    .a--rotate-left-text{
+        writing-mode: inherit;
+        transform: scale(1);
+        text-align:left;
+    }
+}

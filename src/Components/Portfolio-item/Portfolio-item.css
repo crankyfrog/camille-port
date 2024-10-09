@@ -1,0 +1,139 @@
+.portfolio-list{
+    display:flex;
+    padding: 0 0;
+}
+
+.portfolio-item{
+    height: 60vh;
+    position: relative;
+    transition: all 0.5s ease; /* Smooth transition for width */
+}
+
+.portfolio-item:last-child{
+    margin-right: 0%;
+}
+
+.portfolio-list--mobile{
+    display:block;
+    width: 100%;
+}
+
+.portfolio-item--mobile{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    margin: 24px 0%;
+}
+
+.link--container{
+    height: 100%;
+}
+
+.image--container{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1.66%;
+    overflow: hidden;
+}
+
+.image{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.gradiation{
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:15%;
+    width:100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+}
+
+
+.gradiation--mobile{
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:50%;
+    width:100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+}
+
+
+.active{
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+    transition-delay: 200ms;
+}
+
+.inactive{
+   opacity: 0;
+   transition: opacity 0.5s ease-out;
+}
+
+.image--mobile{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    position:relative;
+    transition: transform 0.5s ease;
+}
+
+.image--mobile:hover{
+    transform: scale(1.05);
+}
+
+.title{
+    width:100%;
+    padding-left: 1.666%;
+    padding-top: 1.666%;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+.title--mobile{
+    width:100%;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+.portfolio-button{
+    padding: 0.5rem 1rem;
+    background-color: rgba(0,0,0,0);
+    color:white;
+    border: 1px solid white;
+    transition: background-color ease 0.5s;
+}
+
+.portfolio-button:hover{
+    padding: 0.5rem 1rem;
+    background-color: rgba(255,255,255,0.8);
+    color:black;
+    border: 1px solid white;
+    transition: background-color ease 0.2s;
+}
+
+.portfolio-button:active{
+    padding: 0.5rem 1rem;
+    background-color: var(--yellow);
+    color:black;
+    border: 1px solid var(--yellow);
+}
+
+
+@media only screen and (min-width: 1512px){
+    .portfolio-item{
+        height: 25vh;
+        position: relative;
+        transition: all 0.5s ease; /* Smooth transition for width */
+    }
+}

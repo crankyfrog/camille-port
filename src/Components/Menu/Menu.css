@@ -1,0 +1,38 @@
+.Menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0%;
+}
+
+.menuItem{
+    color:#fff;
+    font-size: 1rem;
+    margin-left: 1rem;
+    height:max-content;
+}
+
+.menuItem:hover{
+    color: yellow;
+    font-size: 1rem;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px){
+    .Menu{
+        display: flex;
+        justify-content: flex-start;
+        align-content: flex-start;
+        margin-bottom: 2rem;
+        
+        width:100%;
+    }
+
+    .menuItem{
+        margin-left: 0rem;
+        margin-right: 1rem;
+    }
+  }
