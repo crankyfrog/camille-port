@@ -4,7 +4,6 @@ import './TextContent.css';
 export default function TextContent(props){
     let isMobile = props.width < 800;
     const isArray = x => Array.isArray(x);
-    let isString = x => typeof x === 'string' || x instanceof String;
 
 
    const TextContent = (x) =>{

@@ -1,17 +1,10 @@
 import React from "react";
-import Lottie from "lottie-react";
-import animationData from '../../yellow_eye.json'
 import './Resume.css';
 import TextContent from "../../Components/Text-Content/TextContent";
 import { Experience, Education, Skills, Projects } from "./resumeContent";
 import ListContent from "../../Components/List-Content/ListContent";
 
 export default function Resume (props){
-
-    const style = {
-        height: '100%',
-        width: '100%'
-    }
 
     return(
         <main className="row">
@@ -26,7 +19,7 @@ export default function Resume (props){
                 My coding skills help bridge design and development, making sure everything is creative and practical. I’m always exploring new trends and tech, driven by a love for making the web friendlier for everyone!
             </p>
 
-            <a href="https://drive.google.com/file/d/1Mho2FuBw-DogvaF3HUJPvEVS5mbv08BQ/view?usp=sharing" download="Camille Tindogan Resume.pdf" target="_blank">
+            <a href="https://drive.google.com/file/d/1Mho2FuBw-DogvaF3HUJPvEVS5mbv08BQ/view?usp=sharing" download="Camille Tindogan Resume.pdf" target="_blank" rel="noreferrer">
                  <button className="portfolio-button">Download Resume</button>
             </a>
         </div>

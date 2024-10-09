@@ -4,7 +4,6 @@ import Content from '../../Components/Content/Content';
 import CanonicalCover from "../../Assets/Images/canonicalImage.webp";
 import CanonicalCoverBW from "../../Assets/Images/canonicalImageBW.webp";
 import rebrandCover from "../../Assets/Images/Cover-Rebrand.webp";
-import rebrandCoverBW from "../../Assets/Images/Cover-Rebrand-BW.webp";
 import Obi from "../../Assets/Images/obiCover.webp";
 import ObiBW from "../../Assets/Images/obiCoverBW.webp";
 import CollageContent from '../../Components/Collage-Content/CollageContent';

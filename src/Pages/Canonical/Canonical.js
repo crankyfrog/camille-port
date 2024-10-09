@@ -3,7 +3,6 @@ import './Canonical.css';
 import Cover from "../../Components/Cover/Cover";
 import Obi from "../../Assets/Images/obiCover.webp"
 import Content from "../../Components/Content/Content";
-import image from "../../image-sample.jpg";
 import rebrandCover from "../../Assets/Images/Cover-Rebrand.webp";
 import rebrandCoverBW from "../../Assets/Images/Cover-Rebrand-BW.webp";
 import benchmark from "../../Assets/Images/Benchmarking.jpg";

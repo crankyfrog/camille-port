@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Experience = [
     {
         title: 'Visual Designer II',
