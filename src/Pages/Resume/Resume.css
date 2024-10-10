@@ -6,3 +6,17 @@
 .resume-image--container{
     height: 350px;
 }
+
+.resume-image{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.resume-image--mobile{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5%;
+}

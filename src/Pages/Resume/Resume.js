@@ -1,5 +1,6 @@
 import React from "react";
 import './Resume.css';
+import Camille from "../../Assets/Images/Camcam.webp";
 import TextContent from "../../Components/Text-Content/TextContent";
 import { Experience, Education, Skills, Projects } from "./resumeContent";
 import ListContent from "../../Components/List-Content/ListContent";
@@ -24,7 +25,7 @@ export default function Resume (props){
             </a>
         </div>
         <div className={`${props.width < 800 ? 'col col-12 margin-bottom--med' : 'col-5 resume-image--container'}`}>
-            <img src="" alt="It's me Camille"/>
+            <img className={`${props.width < 800 ? 'resume-image--mobile':'resume-image'}`} src={Camille} alt="It's me Camille"/>
         {/*<Lottie
          style={style}
          animationData={animationData}
