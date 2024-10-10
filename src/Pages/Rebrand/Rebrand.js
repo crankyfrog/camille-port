@@ -35,7 +35,7 @@ export default function Rebrand(props){
                 <Content
                     width={props.width}
                     title={'process'}
-                    list={['Audit & Researdch', 'Ideation', 'Documentation', 'Implementation']}
+                    list={['Audit & Research', 'Ideation', 'Documentation', 'Implementation']}
                     />   
 
                 <Content
