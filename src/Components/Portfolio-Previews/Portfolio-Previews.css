@@ -19,3 +19,9 @@
 .preview-images--container{
     display: flex;
 }
+
+@media only screen and (min-width:1512px) {
+    .preview--container{
+        height: 500px;     
+    }
+}
