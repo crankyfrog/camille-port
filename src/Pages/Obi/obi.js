@@ -31,7 +31,7 @@ export default function Obi(props){
         <main>
             <Cover
                 width = {props.width}
-                title = {'Obi'}
+                title = {'Obi-Coach'}
                 content ={'Working on an MVP for an application designed to connect users with personal fitness and wellness coaches. The project is funded by the government of Qatar with the goal of helping to reduce diabetes rates in the country.'}
                 role={'UX/UI Design'}
                 collab1={'Phani - Developer'}
