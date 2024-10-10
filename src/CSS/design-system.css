@@ -99,6 +99,10 @@ p{
     width:38.88vw;
 }
 
+.paragraph--mobile{
+    width:100%;
+}
+
 a{
     display: block;
 }

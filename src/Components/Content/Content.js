@@ -10,7 +10,7 @@ export default function Content(props) {
 
     const firstContent = (x) =>{
         if(isString(x.content)){
-            return <p className={`${ isMobile ? '' : 'paragraph'}`}>{x.content}</p>
+            return <p className={`${isMobile ? 'paragraph--mobile':'paragraph'}`}>{x.content}</p>
         } else {
             return null;
         }
@@ -18,7 +18,7 @@ export default function Content(props) {
 
     const secondContent = (x) =>{
         if(isString(x.secondary)){
-            return <p className={`${isMobile ? '' : 'paragraph'}`}>{x.secondary}</p>
+            return <p className={`${isMobile ? 'paragraph--mobile' : 'paragraph'}`}>{x.secondary}</p>
         } else {
             return null;
         }
@@ -26,7 +26,7 @@ export default function Content(props) {
 
     const List  = (x) =>{
         if (isArray(x.list)) {
-            return <ul className={`${props.list ? isMobile ? '' : 'paragraph' : 'a--display-none'}`}>
+            return <ul className={`${props.list ? isMobile ? 'paragraph--mobile' : 'paragraph' : 'a--display-none'}`}>
                 {x.list.map((item, index) => (
                 <li className='list-item' key={index}>{item}</li>
             ))}
