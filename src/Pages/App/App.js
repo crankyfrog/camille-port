@@ -10,6 +10,7 @@ import { useState, useEffect } from 'react';
 import Obi from '../Obi/obi.js';
 import Resume from '../Resume/Resume.js';
 import Rebrand from '../Rebrand/Rebrand.js';
+import sitemap from '../../../src/sitemap.xml';
 
 
 export default function App() {
@@ -46,6 +47,7 @@ export default function App() {
         <Route path="/Ubuntu-Rebrand" element={<Rebrand width={screenSize.width}/>}/>
         <Route path="/Obi" element={<Obi width={screenSize.width}/>}/>
         <Route path="/Resume" element={<Resume width={screenSize.width}/>}/>
+        <Route path="/sitemap" element={sitemap}/>
       </Routes>
       <Footer width={screenSize.width}/>
     </BrowserRouter>
