@@ -137,3 +137,12 @@
         transition: all 0.5s ease; /* Smooth transition for width */
     }
 }
+
+@media only screen and (max-width: 800px){
+    .title{
+        width: 120%;
+        position:absolute;
+        bottom: 10px;
+        left:0px
+    }
+}

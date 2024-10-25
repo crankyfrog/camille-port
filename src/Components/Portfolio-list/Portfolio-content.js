@@ -16,7 +16,7 @@ export const contents = [
 
     {
         id: 2,
-        name:'Obi-Coach',
+        name:'Obi',
         image: ObiImage,
         inactive: ObiImageBW,
         link:'Obi'
