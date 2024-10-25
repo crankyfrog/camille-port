@@ -11,15 +11,6 @@ export default function CollageContent2 (props) {
                     <div className={` ${isMobile ? 'collage-image--mobile col col-12' : 'collage--image-container col-6'}`}>
                         <img className='collage2-image' src={props.images[0].pic} alt={props.images[0].alt} />  
                     </div>
-                    <div className='collage2--sib'>
-                        <div className={` ${isMobile ? 'collage-image--mobile col col-12' : 'collage--image-container col col-4'}`}>
-                        <img className='collage2-image' src={props.images[1].pic} alt={props.images[1].alt} />  
-                        </div>
-                        <div className={` ${isMobile ? 'collage-image--mobile col col-12' : 'collage--image-container col col-2'}`}>
-                        <img className='collage2-image' src={props.images[2].pic} alt={props.images[2].alt} />  
-                        </div>
-                    </div>
-             
             </div>
             )
         } else {

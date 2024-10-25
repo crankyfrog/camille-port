@@ -19,8 +19,6 @@ import screen7 from "../../Assets/Images/ui1.2.webp"
 import screen8 from "../../Assets/Images/ui1.3.webp"
 import obiCover from "../../Assets/Images/obiCover.webp"
 import test1 from "../../Assets/Images/test-1.webp"
-import test2 from "../../Assets/Images/test-2.webp"
-import test3 from "../../Assets/Images/test-3.webp"
 import Canonical from "../../Assets/Images/canonicalImage.webp"
 import CanonicalBW from "../../Assets/Images/canonicalImageBW.webp"
 import rebrandCover from "../../Assets/Images/Cover-Rebrand.webp";
@@ -94,8 +92,6 @@ export default function Obi(props){
                 content={'We tested how users interacted with the application by having them use the think-aloud method. They navigated the app on their own while sharing their thoughts out loud. We asked them to find specific screens and watched how long it took for them to get comfortable with the wireframes, which helped us figure out what needed to be improved.'}
                 images={[ 
                     {pic: test1, alt:'UX Testing'},
-                    {pic: test2, alt:'UX Testing'},
-                    {pic: test3, alt:'UX Testing'}
                 ]}
             />  
 
