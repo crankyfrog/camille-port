@@ -56,7 +56,7 @@ export default function Rebrand(props){
 
                 <CollageContent
                         width = {props.width}
-                        title = {'Documentation'}
+                        title = {'Documenting'}
                         content = {`In the documentation phase, all elements from the ideation process were formalized into a comprehensive brand guideline.
                             This included detailed specifications for the different product logos, typography sets, iconography, and illustrations, ensuring that every component aligned with the vision of a simple, modular brand.
                             The guidelines outlined best practices for applying these elements across various mediums—digital platforms, marketing materials, and product interfaces—ensuring consistency while accommodating the unique needs of different products.`}
@@ -70,8 +70,8 @@ export default function Rebrand(props){
 
                 <CollageContent
                         width = {props.width}
-                        title = {'Implementation'}
-                        content = {`The implementation phase focused on bringing the new brand elements to life across Canonical’s digital platforms, particularly its website. Following the guidelines from the documentation phase, the website was redesigned with a modular approach, allowing for easy scalability across different product lines. The updated typography and color palette were applied consistently, enhancing readability and visual cohesion while keeping the brand visually dynamic. Custom iconography and imagery were integrated to distinguish each product without deviating from the core brand identity. Navigation was simplified, content was reorganized for clarity, and responsiveness was optimized to ensure a seamless user experience across all devices. This phase ensured that the brand’s new, modern look was fully realized and accessible to users.`}
+                        title = {'Implementing'}
+                        content = {`The implementation sphase focused on bringing the new brand elements to life across Canonical’s digital platforms, particularly its website. Following the guidelines from the documentation phase, the website was redesigned with a modular approach, allowing for easy scalability across different product lines. The updated typography and color palette were applied consistently, enhancing readability and visual cohesion while keeping the brand visually dynamic. Custom iconography and imagery were integrated to distinguish each product without deviating from the core brand identity. Navigation was simplified, content was reorganized for clarity, and responsiveness was optimized to ensure a seamless user experience across all devices. This phase ensured that the brand’s new, modern look was fully realized and accessible to users.`}
                         images = {[
                             {pic:ubuntuPro, alt:'Ubuntu Pro Page'},
                             {pic:ubuntuServer, alt:'Ubuntu Server Page'},
