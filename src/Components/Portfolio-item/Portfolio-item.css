@@ -132,7 +132,7 @@
 
 @media only screen and (min-width: 1512px){
     .portfolio-item{
-        height: 25vh;
+        height: 50vh;
         position: relative;
         transition: all 0.5s ease; /* Smooth transition for width */
     }
