@@ -60,6 +60,7 @@ export default function Content(props) {
                     {secondContent(props)}
                 </div>
             </div>
+            
         </div>
     )
 }

@@ -19,6 +19,8 @@ export default function App() {
     height: window.innerHeight,
   })
 
+  let isMobile = screenSize.width < 800;
+
   useEffect(() => {
     const handleResize = () => {
       setScreenSize({
@@ -42,7 +44,7 @@ export default function App() {
         <Route path="/" element={<Home width={screenSize.width}/>}/>
         <Route path="/#" element={<Home width={screenSize.width}/>}/>
         <Route path="/Home" element={<Home width={screenSize.width}/>}/>
-        <Route path="/Canonical" element={<Canonical width={screenSize.width}/>}/>
+        <Route path="/Canonical" element={<Canonical width={screenSize.width} isMobile={isMobile}/>}/>
         <Route path="/Ubuntu-Rebrand" element={<Rebrand width={screenSize.width}/>}/>
         <Route path="/Obi" element={<Obi width={screenSize.width}/>}/>
         <Route path="/Resume" element={<Resume width={screenSize.width}/>}/>
