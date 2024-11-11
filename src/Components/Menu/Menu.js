@@ -22,7 +22,9 @@ function Menu() {
 
     const navLinks = links.map((link, index) => {
         // Check if the current link matches the current location
-        const isActive = location.pathname === link.link;
+        const isActive = 
+        (location.pathname === link.link) || 
+        ((location.pathname === '/' || location.pathname === '/Home') && link.link === '/Home');
 
         return (
             <a
