@@ -16,6 +16,23 @@
     background-size: 200% 100%;
 }
 
+.menuItem:last-child::after {
+  content: url(../../Assets/Images/external-link.svg);
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  filter: brightness(0) saturate(100%) invert(100%);
+}
+
+.menuItem:last-child:hover::after {
+  content: url(../../Assets/Images/external-link.svg);
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  filter: brightness(0) saturate(100%) invert(0);
+  transition: all 0.8s ease;
+}
+
 .menuItem:hover{
     color: #111;
     background-position: left;
@@ -27,6 +44,7 @@
     background-position: left;
     transition: all 0.8s ease;
 }
+
 
 a{
     color:white;

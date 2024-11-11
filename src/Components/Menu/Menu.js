@@ -7,16 +7,19 @@ function Menu() {
         {
             title: 'Home',
             link: '/Home',
-            id: 1
+            id: 1,
+            target: ''
         },
         {
             title: 'Resume',
             link: '/Resume',
-            id: 2
+            id: 2,
+            target: ''
         },
         {
             title: 'LinkedIn',
             link: 'https://www.linkedin.com/in/camilleux/',
+            target: '_blank'
         }
     ];
 
@@ -31,6 +34,7 @@ function Menu() {
                 className={`menuItem small-caps ${isActive ? 'active-link' : ''}`}
                 key={index}
                 href={link.link}
+                target={link.target}
             >
                 {link.title}
             </a>
