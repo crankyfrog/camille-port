@@ -23,7 +23,7 @@ export default function Rebrand(props){
         <main>
              <Cover
                 width={props.width}
-                title = {'Canonical Rebranding 2023'}
+                title = {'Ubuntu Rebranding 2023'}
                 content = {'The 2023 Canonical rebrand modernized its website with a clean, intuitive design focused on accessibility and scalability across its diverse product offerings. The revamped site used bold typography, custom iconography, and illustrations to create a cohesive, enterprise-ready aesthetic. Simplified navigation and clearer content presentation made technical information more approachable, appealing to a wider audience. This redesign improved user engagement and reinforced Canonical’s position as a leading tech innovator.'}
                 role = {'Visual Designer'}
                 collab1 = {'Lyubomir Popov'}
