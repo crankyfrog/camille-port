@@ -8,12 +8,24 @@
     color:#fff;
     font-size: 1rem;
     margin-left: 1rem;
+    padding-right: 10px;
+    padding-left: 2px;
+    letter-spacing: 1;
     height:max-content;
+    background: linear-gradient(to left, #111 50%, rgb(255, 230, 0) 50%) right;
+    background-size: 200% 100%;
 }
 
 .menuItem:hover{
-    color: yellow;
-    font-size: 1rem;
+    color: #111;
+    background-position: left;
+    transition: all 0.8s ease;
+}
+
+.active-link{
+    color: #111;
+    background-position: left;
+    transition: all 0.8s ease;
 }
 
 a{
@@ -34,5 +46,17 @@ a{
     .menuItem{
         margin-left: 0rem;
         margin-right: 1rem;
+    }
+  }
+
+  @keyframes run {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 100%;
+    }
+    100% {
+      left: 0;    
     }
   }
