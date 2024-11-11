@@ -167,6 +167,10 @@ a{
     margin-bottom: 0.5rem;
 }
 
+.margin-bottom--img{
+    margin-bottom: 1rem;
+}
+
 .margin-top--big{
     margin-top: 6rem;
 }
