@@ -10,7 +10,7 @@ function PortfolioItem(props){
             `}
             onMouseEnter={() => props.onMouseEnter(props.id)}
             >
-                <a className='link--container' href={props.link}>
+                <a className={`${props.width<800 ? 'link--container-mobile' : 'link--container'}`} href={props.link}>
                 <div className='image--container'>
                     <img className={` ${props.width < 800 ? 'image--mobile': 'image'}
                         `}

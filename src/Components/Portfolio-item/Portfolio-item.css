@@ -9,6 +9,11 @@
     transition: all 0.5s ease; /* Smooth transition for width */
 }
 
+.link--container:hover{
+    cursor: url(../../Assets/Images/read-more.svg), auto;
+    transition: all 0.5s ease; /* Smooth transition for width */
+}
+
 .portfolio-item:last-child{
     margin-right: 0%;
 }
@@ -26,6 +31,10 @@
 }
 
 .link--container{
+    height: 100%;
+}
+
+.link--container-mobile{
     height: 100%;
 }
 

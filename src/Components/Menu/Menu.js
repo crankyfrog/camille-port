@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import './Menu.css';
 
-function Menu() {
+function Menu(props) {
     const location = useLocation();
     const links = [
         {
@@ -42,7 +42,7 @@ function Menu() {
     });
 
     return (
-        <nav className='Menu col col-3'>{navLinks}</nav>
+        <nav className={`Menu ${props.width < 800? 'col-12' : 'col col-4' }`}>{navLinks}</nav>
     );
 }
 
